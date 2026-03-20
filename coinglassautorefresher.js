@@ -1,5 +1,6 @@
+// Works on Coinglass pages site-wide (e.g. Liquidation Heatmap: https://www.coinglass.com/pro/futures/LiquidationHeatMapNew)
 // Change intervalSeconds to your preferred refresh interval
-const intervalSeconds = 30;
+const intervalSeconds = 30; // change this value for the interfall for the refreshtime in seconds
 
 const hideLoading = () => {
   // Progress bar
